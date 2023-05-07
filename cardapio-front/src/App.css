@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.container button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border-radius: 8px;
+    border: 1px solid transparent;
+}
+
+.container button:hover {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    transform: scale(1.1);
+}
+
+.buutons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+}
