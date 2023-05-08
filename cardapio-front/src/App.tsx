@@ -14,7 +14,7 @@ function App() {
     <div className='container'>
       <h1> Cárdapio </h1>
       <div className="buutons">
-        <button onClick={handleOpenModal}> { (!isModalOpen)? 'Adicionar novo item': 'Cancelar' }</button>
+        <button onClick={handleOpenModal}> Adicionar novo item</button>
 
       </div>
       <div className='card-grid'>

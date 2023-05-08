@@ -63,3 +63,13 @@
     background-color: #3a44f8;
     transform: scale(1);
 }
+
+.buutons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding: 0;
+    gap: 1rem;
+}

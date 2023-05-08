@@ -1,6 +1,6 @@
 import axios, { AxiosPromise } from "axios";
 import { FoodData } from "../interface/FoodData";
-import { useMutation, useQuery, useQueryClient } from "react-query";
+import { useMutation, useQueryClient } from "react-query";
 
 const apiUrl = 'http://localhost:8080/';
 
